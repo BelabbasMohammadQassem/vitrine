@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio Tech</title>
+    <!-- Liens vers Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Lien vers le fichier CSS personnalisé -->
+    <link rel="stylesheet" href="src/App.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mon Portfolio Tech</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#accueil">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#partenaires">Nos Partenaires</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Accueil avec Bio -->
+    <section id="accueil" class="container text-center my-5">
+        <h1 class="display-4">Bienvenue dans le monde de la tech</h1>
+        <p class="lead">Découvrez mes projets, mes partenaires, et mes réseaux sociaux.</p>
+    
+        <!-- Petite Bio avec Image (Image à droite) -->
+        <div class="row justify-content-center">
+            <div class="col-md-6 d-flex align-items-center mt-5">
+                <p class="lead">
+                    Passionné par la tech, je suis un développeur toujours à la recherche de nouvelles
+                    opportunités pour explorer, créer et collaborer dans le domaine des technologies.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <img src="/public/img/tdc.png" alt="Image Personnelle" class="img-fluid rounded-circle">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Nos Partenaires -->
+    <section id="partenaires" class="container my-5">
+        <h2 class="text-center mb-4">Nos Partenaires</h2>
+        <div class="row">
+            <!-- Carte Entreprise 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <img src="public/img/eneba.png" class="card-img-top" alt="Eneba">
+                    <div class="card-body">
+                        <h5 class="card-title">Eneba</h5>
+                        <p class="card-text">Eneba : plateforme d'achat et vente numérique.</p>
+                        <a href="#" class="btn btn-primary">Découvrir</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carte Entreprise 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <img src="public/img/boosteroid.jpeg" class="card-img-top" alt="Boosteroid">
+                    <div class="card-body">
+                        <h5 class="card-title">Boosteroid</h5>
+                        <p class="card-text">Boosteroid : service de cloud gaming rapide.</p>
+                        <a href="#" class="btn btn-primary">Découvrir</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carte Entreprise 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <img src="public/img/acer.jpeg" class="card-img-top" alt="Acer">
+                    <div class="card-body">
+                        <h5 class="card-title">Acer/h5>
+                        <p class="card-text">Acer : fabricant d'ordinateurs et technologies innovantes.</p>
+                        <a href="#" class="btn btn-primary">Découvrir</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carte Entreprise 4 -->
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <img src="public/img/razer.png" class="card-img-top" alt="Razer">
+                    <div class="card-body">
+                        <h5 class="card-title">Razer</h5>
+                        <p class="card-text">Razer : marque d'accessoires et matériel gaming.</p>
+                        <a href="#" class="btn btn-primary">Découvrir</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carte Entreprise 5 -->
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <img src="public/img/absylute.png" class="card-img-top" alt="abxylute">
+                    <div class="card-body">
+                        <h5 class="card-title">abxylute</h5>
+                        <p class="card-text">Abxylute : console portable de cloud gaming.                        </p>
+                        <a href="#" class="btn btn-primary">Découvrir</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carte Entreprise 6 -->
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <img src="public/img/remotto.png" class="card-img-top" alt="Remotto">
+                    <div class="card-body">
+                        <h5 class="card-title">Remotto</h5>
+                        <p class="card-text">Remotto : batteries sans fil pour gaming</p>
+                        <a href="#" class="btn btn-primary">Découvrir</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="container my-5">
+        <h2 class="text-center mb-4">Contact</h2>
+        <p class="text-center">Vous pouvez me contacter via mes réseaux sociaux :</p>
+        <div class="text-center">
+            <a href="https://discord.gg/mathys-m-697719247606120548" class="btn btn-outline-primary mx-2">Discord</a>
+            <a href="https://www.youtube.com/channel/UCZz23SiVwIYSRSfcjoUxaJg" class="btn btn-outline-primary mx-2">YouTube</a>
+            <a href="https://github.com/MathysM-Yt" class="btn btn-outline-secondary mx-2">GitHub</a>
+            <a href="https://www.twitch.tv/MathysM_Yt" class="btn btn-outline-info mx-2">Twitch</a>
+            <a href="https://www.tiktok.com/@MathysM_yt" class="btn btn-outline-info mx-2">TikTok</a>
+            <a href="https://www.instagram.com/mathysm_yt/" class="btn btn-outline-info mx-2">Instagram</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light py-3">
+        <div class="container text-center">
+            <p>&copy; 2024 Mon Portfolio Tech - Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

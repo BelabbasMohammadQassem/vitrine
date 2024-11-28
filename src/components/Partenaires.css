@@ -1,0 +1,10 @@
+/* src/components/Partenaires.css */
+.partenaires-img {
+    height: 200px;
+    object-fit: contain;
+  }
+  
+  #partenaires .row {
+    row-gap: 30px;
+  }
+  

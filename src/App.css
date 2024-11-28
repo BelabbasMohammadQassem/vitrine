@@ -1,0 +1,114 @@
+/* App.css */
+
+html, body {
+  height: 100%; /* Important pour que l'image couvre la page entière */
+  margin: 0; /* Supprime les marges par défaut */
+  padding: 0;
+}
+/* Global Styles */
+body {
+  background-image: url('/public/img/joysticks-6603119_1280.jpg'); /* Chemin de ton image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Effet parallaxe, l'image ne bouge pas avec le défilement */
+  height: 100%; /* L'image couvre toute la fenêtre */
+}
+
+/* Style global pour les composants */
+.App {
+  min-height: 100vh; /* Assure que le contenu prend toute la hauteur de la fenêtre */
+  padding-bottom: 80px; /* Ajuste en fonction de la taille de ton footer */
+  position: relative;;
+  }
+
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: #333;
+  color: black;
+  text-align: center;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* Couche noire transparente */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1, h2 {
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+h5 {
+  color: #7f8c8d;
+}
+
+/* Styling for Bio Section */
+#accueil {
+  background-color: #fff;
+  padding: 50px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#accueil p {
+  color: #34495e;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+#accueil img {
+  max-width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for Partner Section */
+#partenaires {
+  padding: 50px 0;
+}
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.card-text {
+  color: #7f8c8d;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* Social Links */
+#social-links a {
+  margin: 0 10px;
+  color: #2c3e50;
+}
+
+#social-links a:hover {
+  color: #3498db;
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
